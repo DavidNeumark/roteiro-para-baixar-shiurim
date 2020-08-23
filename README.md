@@ -23,8 +23,7 @@ curl -H "Referer: http://vod.wgnmedia.com/VOD/vod.php\?ID\=74645\&CS\=26" http:/
 ## Sugestao:
 
 - [Veja](https://stackoverflow.com/questions/36433755/ghematria-in-python-hebrew-letters-to-numbers-and-sum) StackOverflow para saber como tirar a Ghematria dos anos em hebraico com Python
-
-
+- Talvez usar switch-case para converter o nome das parashiot:
 
 בראשית
 נח
