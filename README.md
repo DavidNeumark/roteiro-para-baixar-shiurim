@@ -1,4 +1,10 @@
-## Acho devemos comecar por [aqui](http://beinenu.com/faceted_search/results/field_rabbi4lesson%3A43971). Esta e' a pagina aonde esta' a lista completa dos shiurim do rabino.<br>
+# Objetivo:
+- Colocar todos os shiurim do רב אברהם צבי מרגלית שליט"א no storage.
+
+- No final das contas nas queremos rodar o seguinte comando para cada shiur:
+curl -H "Referer: http://vod.wgnmedia.com/VOD/vod.php\?ID\=74645\&CS\=26" http://vod.wgnmedia.com/VOD/LIB.MP4/v74645.mp4 --output bereshit-5779.mp4
+
+## Devemos comecar por [aqui](http://beinenu.com/faceted_search/results/field_rabbi4lesson%3A43971). Esta e' a pagina aonde esta' a lista completa dos shiurim do rabino.<br>
 
 ## Em seguinda vamos escolher um dos cinco livros do Chumash. Por exemplo: [חומש בראשית](http://beinenu.com/faceted_search/results/taxonomy%3A47499%20field_rabbi4lesson%3A43971).
 Obs.: Obviamente, temos que repetir todo o processo nos outros 4 livros (שמות, ויקרא...).
@@ -17,8 +23,6 @@ Obs.: Obviamente, temos que repetir todo o processo nos outros 4 livros (שמו�
       --compressed \
       --insecure
     ```
-- No final das contas nas queremos "personalizar" e rodar o seguinte comando para cada shiur:
-curl -H "Referer: http://vod.wgnmedia.com/VOD/vod.php\?ID\=74645\&CS\=26" http://vod.wgnmedia.com/VOD/LIB.MP4/v74645.mp4 --output bereshit-5779.mp4
 
 ## Sugestao:
 
