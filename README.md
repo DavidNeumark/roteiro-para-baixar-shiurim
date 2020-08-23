@@ -8,12 +8,11 @@ curl -H "Referer: http://vod.wgnmedia.com/VOD/vod.php\?ID\=74645\&CS\=26" http:/
 
 ## Em seguinda vamos escolher um dos cinco livros do Chumash. Por exemplo: [חומש בראשית](http://beinenu.com/faceted_search/results/taxonomy%3A47499%20field_rabbi4lesson%3A43971).
 Obs.: Obviamente, temos que repetir todo o processo nos outros 4 livros (שמות, ויקרא...).
-- Obs.: A lista e' bastante longa e foi divida em 7 paginas.
+- Obs.: A lista foi divida em 7 paginas.
 
 - Antes de entrar no primeiro shiur deve-se guardar na memoria o nome da parasha e o ano antes de acessar o [video](http://beinenu.com/lessons/%D7%A4%D7%A8%D7%A9%D7%AA-%D7%91%D7%A8%D7%90%D7%A9%D7%99%D7%AA-17). O nome consta na tbm na pag. do video.
-- o nome devera' ser guardado de forma que o arquivo receba o nome com a parasha
-    e o ano, assim: bereshit-5779.mp4
-    
+- o nome devera' ser guardado de forma que o arquivo receba o nome com a parasha e o ano, assim: bereshit-5779.mp4
+
 - F12 > Network > clicar play no video > localizar o arquivo mp4 e copiar o curl >
     ```
     curl 'http://vod.wgnmedia.com/VOD/LIB.MP4/v74645.mp4' \
