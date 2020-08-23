@@ -19,5 +19,7 @@ F12 > Network > clicar play no video > localizar o arquivo mp4 e copiar o curl >
     --insecure
   '''
 ![lista-completa.png](lista-completa.png)
-
+<img src="lista-completa.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 https://stackoverflow.com/questions/36433755/ghematria-in-python-hebrew-letters-to-numbers-and-sum
