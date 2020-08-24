@@ -1,12 +1,12 @@
-# Objetivo:
+# 1. Objetivo:
 - Colocar todos os shiurim do רב אברהם צבי מרגלית שליט"א no storage.
 
 - No final das contas nas queremos rodar o seguinte comando para cada shiur:
 curl -H "Referer: http://vod.wgnmedia.com/VOD/vod.php\?ID\=74645\&CS\=26" http://vod.wgnmedia.com/VOD/LIB.MP4/v74645.mp4 --output bereshit-5779.mp4
 
-## Comecamos por [aqui](http://beinenu.com/faceted_search/results/field_rabbi4lesson%3A43971). Esta e' a pagina com a lista completa dos shiurim do rabino.<br>
+## 2. Comecamos por [aqui](http://beinenu.com/faceted_search/results/field_rabbi4lesson%3A43971). Esta e' a pagina com a lista completa dos shiurim do rabino.<br>
 
-## Em seguinda vamos escolher um dos cinco livros do Chumash. Por exemplo: [חומש בראשית](http://beinenu.com/faceted_search/results/taxonomy%3A47499%20field_rabbi4lesson%3A43971).
+## 3. Em seguinda vamos escolher um dos cinco livros do Chumash. Por exemplo: [חומש בראשית](http://beinenu.com/faceted_search/results/taxonomy%3A47499%20field_rabbi4lesson%3A43971).
 Obs.: Obviamente, temos que repetir todo o processo nos outros 4 livros (שמות, ויקרא...).
 - Obs.: A lista foi divida em 7 paginas.
 
@@ -23,7 +23,7 @@ Obs.: Obviamente, temos que repetir todo o processo nos outros 4 livros (שמו�
       --insecure
     ```
 
-## Sugestao:
+## 4. Sugestao:
 
 - [Veja](https://stackoverflow.com/questions/36433755/ghematria-in-python-hebrew-letters-to-numbers-and-sum) StackOverflow para saber como tirar a Ghematria dos anos em hebraico com Python
 - Talvez usar switch-case para converter o nome das parashiot:
